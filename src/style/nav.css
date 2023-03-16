@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#nav{
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#nav img{
+    height: 40vh;
+    
+}
+
+.Links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.Links li{
+  
+margin: 0 40px;
+}
+
+.Links li a{
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Hero-sec{
+    margin: 70px 100px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+
+}
+
+
+.hero-text{
+    padding: 0 70px;
+}
+
+.hero-text h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.hero-text p{
+        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 163.15%;
+    color: #6D7D8B;
+    padding-bottom: 50px;
+}
+
+
+hr{
+    border: 2px solid #000000;
+}
